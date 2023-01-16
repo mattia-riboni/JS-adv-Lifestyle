@@ -15,7 +15,7 @@ About The Project
   
 
 
-![screenshot](/assets/imgs/home2.png)
+![screenshot](/assets/imgs/city-lifestyle-1.png)
 
 
 
@@ -24,7 +24,10 @@ This project was made to complete the "lifestyle Javascript advanced project" fo
 
 API
 ---
-unsplash.com (Background images)
+unsplash.com (Background images);
+
+
+
 teleport.org (Data)
 
 Libraries
