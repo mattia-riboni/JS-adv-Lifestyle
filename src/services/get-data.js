@@ -45,7 +45,7 @@ export function getData(input, container){
       })
     })
     .catch((error) => {
-      paragraph.innerHTML = 'Sorry, this city is not in our database. Please check for spelling error. Remember to use english names for the research. If you need a list of all cities available go to <a href="./all-cities/all_cities.html">All Cities</a>.';
+      paragraph.innerHTML = 'Sorry, this city is not in our database. Please check for spelling error. Remember to use english names for the research. If you need a list of all cities available go to <a href="./src/all-cities/all_cities.html">All Cities</a>.';
       cityScore.innerHTML = '';
 
       input.style.border = '2px solid red';
