@@ -1,7 +1,7 @@
 \# Mattia Riboni's Javascript Advanced Lifestyle Project
 ---
 Try it:
-[APP](https://unrivaled-sundae-31de11.netlify.app/index.html)
+[APP](https://legendary-rolypoly-5f02ea.netlify.app/)
 
   
 

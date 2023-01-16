@@ -6,7 +6,7 @@ export function getData(input, container){
     let inputValue = input.value;
 
     //Fetch link wants cities names divided by '-', so I replaced 
-    //spaces, dots and comas thanks to split and join methods
+    //spaces, dots and comas thanks to split() and join() methods.
     let cityArray = inputValue.split(' '); 
     let link = cityArray.join('-').toLowerCase();
     cityArray = link.split(',');
