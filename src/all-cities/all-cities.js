@@ -10,19 +10,11 @@ for (let city in cities){
   const newCity = document.createElement('li');
   newCity.textContent = city;
   cityList.append(newCity);
+  let cityLink = cities[city];
   
   //adding click event listener on each element of the list
   newCity.addEventListener('click', function(){
     
-    //teleport link widget needs words separated from '-'
-    let cityArray = city.split(' '); 
-    let cityLink = cityArray.join('-').toLowerCase();
-    cityArray = cityLink.split(',');
-    cityLink = cityArray.join('')
-    cityArray = cityLink.split('.');
-    cityLink = cityArray.join('');
-    
-
     //creating the widget
     const widget = document.createElement('script');
     const goHome = document.createElement('BUTTON');
@@ -41,7 +33,7 @@ for (let city in cities){
     widgetContainer.append(widget);
 
     goHome.innerHTML = 'Home';
-    goHome.setAttribute('onclick', "location.href='../index.html'");
+    goHome.setAttribute('onclick', "location.href='../../index.html'");
     goHome.classList.add('button', 'go-home');
     widgetContainer.append(goHome);
 

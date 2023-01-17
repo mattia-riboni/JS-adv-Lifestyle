@@ -8,11 +8,15 @@
     "start": "webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mattia Riboni",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattia-riboni/JS-adv-Lifestyle"
   },
   "dependencies": {
     "apexcharts": "^3.36.3"

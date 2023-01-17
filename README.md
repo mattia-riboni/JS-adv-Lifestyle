@@ -24,16 +24,21 @@ This project was made to complete the "lifestyle Javascript advanced project" fo
 
 API
 ---
-unsplash.com (Background images);
+[Unsplash](https://unsplash.com/) (Background images);
 
 
 
-teleport.org (Data)
+[Teleport](teleport.org) (Data)
 
 Libraries
 ---
 
-ApexChart
+[ApexChart](https://apexcharts.com/)
+
+Bundler
+---
+
+[WebPack](https://webpack.js.org/)
 
 
 Usage
